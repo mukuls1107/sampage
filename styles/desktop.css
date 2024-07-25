@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root {
+    --intro-bg: #0891B2;
+    --footer-bg: #F6F6F6;
+    --pj1: #9E1C1C;
+    --pj2: #7C75CA;
+    --pj3: #5E8F4D;
+
+}
+
+.intro {
+    height: 80vh;
+    border: 1px solid red;
+    padding: 10px 8px;
+    background-color: var(--intro-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-size: 48px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    color: black;
+}
+
+.img {
+    position: relative;
+    background-image: url(../assets/guy.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 70%;
+}
+
+.about {
+    height: 60%;
+    width: 40%;
+    background-color: var(--footer-bg);
+    padding: 12px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.about>h2 {
+    font-size: 32px;
+}

@@ -56,6 +56,23 @@
     .about > h2 {
         font-size: 28px;
     }
+    .foot {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+
+    .ct {
+        align-items: center;
+    }
+
+    .right {
+        order: -1;
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 640px) {
@@ -99,5 +116,16 @@
     
     .card-head, .card-desc {
         padding: 12px;
+    }
+    .foot {
+        padding: 20px 10px;
+    }
+
+    .contacts h2 {
+        font-size: 20px;
+    }
+
+    .right {
+        height: 150px;
     }
 }
